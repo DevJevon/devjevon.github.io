@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Eleen Catubay</title>
 </head>
@@ -11,52 +12,84 @@
     
     <!-- navbar by jevon 4/18/2024 -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Eleen Catubay</a>
+        <a class="navbar-brand" href="#">
+            <img src="assets/img/banner.png" alt="Eleen Catubay Logo">
+        </a>        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#"><i class="fas fa-star"></i> Features</a> <!-- Keeping fa-star as before -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#"><i class="fas fa-box"></i> Products</a> <!-- Keeping fa-box as before -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blogs</a>
+                    <a class="nav-link" href="#"><i class="fas fa-newspaper"></i> Blogs</a> <!-- Keeping fa-newspaper as before -->
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                </li> -->
             </ul>
-        </div>
+        </div>                    
     </nav>
     <!-- end of navbar -->
     <!-- main nav -->
     <main>
-        <!-- sections -->
+        <!-- section 1-->
         <section id="section1">
             <h3>Discover a</h3>
             <h3>Healthier You with</h3>
             <h3><strong>Amazing Barley</strong></h3>
-            <!-- <img src="https://i.ebayimg.com/images/g/BfYAAOSwciZlUeQB/s-l1600.jpg" alt="barley"> -->
+            <h3>& <strong>Orbix Victus</strong></h3>
         </section>
+
+        <!-- section 2 -->
         <section id="section2" >
+            <h3><strong>Amazing Barley</strong></h3>
             <img src="https://i.etsystatic.com/43668397/r/il/2c2e04/5533924041/il_fullxfull.5533924041_g378.jpg" alt="barley">
-            <p>Introducing Amazing Barley: Your Gateway to Healthier Living
-                Unlock the power of nature with Amazing Barley, your ultimate companion on the journey to a healthier lifestyle. Harvested from the lush fields of pristine barley farms, our product is meticulously crafted to deliver an abundance of health benefits in every sip.</p>
+            <span id="barley" >
+                <p>Introducing <strong>Amazing Barley</strong>: Your Gateway to Healthier Living
+                    Unlock the power of nature with Amazing Barley, your ultimate companion on the journey to a healthier lifestyle. Harvested from the lush fields of pristine barley farms, our product is meticulously crafted to deliver an abundance of health benefits in every sip.
+                </p>
+            </span>
         </section>
-        <section id="section3">
-            <p>Congrats sa mga winners 🥰
-                Thank u soo much ni sa pag sponsor sa mga premyu aning mga winners🥰
-                Ginagmay nga pa premyu pero kanunay mn pud🙏🙏🥰🥰❤️❤️</p>
-            <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Feleen.catubay.3%2Fvideos%2F795087505116803%2F&show_text=false&width=273&t=0" width="273" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+        <!-- section 3 -->
+        <section id="section3" >
+            <h3><strong>Orbix Victus</strong></h3>
+            <img src="https://scontent.fcxh2-1.fna.fbcdn.net/v/t39.30808-6/364195483_260041616766128_6785419228881653546_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RHOEoA-ygLYAb6EmmwB&_nc_oc=AdgyYkTRbfhLrg4t8DMatWLyAOOJXj5iFnC2v88nCmxfDWID6qlGiPUSfFNDKQdVHFI8-zbbdmTwJ80MsTbeK8m5&_nc_ht=scontent.fcxh2-1.fna&oh=00_AfCASHMeLkVlT-DeRXzqEJQ3_r8mmykzCR7b_8sz_HqLig&oe=6627F7B3" alt="orbix">
+            <span id="orbix" >
+                <p>
+                    "ALIVE Foundation, part of Alliance In Motion Global, has been aiding communities for 13 years. Established in June 2008, it supports various groups in the Philippines, led by Chairman Dr. Connie Malubay-Cabantog. Through outreach programs and medical missions, it aims to make a difference."
+                </p>
+            </span>
         </section>
     </main>
+
+    <!-- footer start 4/19/2024 -->
+    <footer>
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Contact Us</h3>
+                        <p>Purok 27, Poblacion Buug<br>Philippines</p>
+                        <p>Email: eleen.catubay@gmail.com<br>Phone: ###-###-####</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/New Project.png" alt="eleencatubay">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer end 4/19/2024 -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
